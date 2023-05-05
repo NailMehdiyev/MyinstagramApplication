@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="3dp">
+
+
+                <ImageView
+                    android:id="@+id/idclos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_close" />
+
+
+                <TextView
+                    android:id="@+id/posttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:text="Post"
+                    android:textColor="#3F51B5"
+
+                    android:textSize="19sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/resmlanch"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:maxHeight="600dp"
+            android:scaleType="fitXY"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_fotograf"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+
+        <EditText
+            android:id="@+id/descriptiontext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Description"
+            android:maxLines="5"
+            android:textColorHint="@color/purple_700" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

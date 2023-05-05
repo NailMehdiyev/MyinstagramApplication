@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:id="@+id/profresm"
+            android:src="@drawable/ic_profil"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/usernametext11"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="15dp"
+            android:text="Username"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/paylawilanresm"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="600dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        android:scaleType="fitXY"
+        android:layout_marginTop="70dp"
+        android:layout_height="180dp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:id="@+id/rel"
+    android:layout_below="@+id/paylawilanresm"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/lke"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/yorum1"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_favor"/>
+
+
+    <ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/yorum1"
+    android:src="@drawable/ic_comment"/>
+
+
+
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/save_postitem"
+        android:layout_marginRight="25dp"
+
+        android:layout_height="30dp"
+        android:src="@drawable/ic_book"/>
+
+
+
+</RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/rel"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/likestextview12"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="5dp"
+            android:text="Likes"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/publishertext13"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="5dp"
+            android:text="Publisher"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aboutposttext"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+
+            android:textStyle="bold"
+
+            android:layout_marginTop="5dp"
+            android:text="About Post"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:id="@+id/commenttxt18"
+            android:layout_marginLeft="10dp"
+            android:textColor="#BDBCBC"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text="Comments"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

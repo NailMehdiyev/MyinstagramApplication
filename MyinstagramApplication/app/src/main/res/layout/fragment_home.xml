@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.HomeFragment">
+
+
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:id="@+id/apbarlayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?android:attr/windowBackground">-->
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/a1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/r"
+                android:layout_height="55dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="-10dp"
+                    android:src="@drawable/ins" />
+
+
+                <ImageView
+                    android:id="@+id/homefragment_direkt"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_mesaj" />
+
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/homefragment_direkzinqirov"
+                    android:src="@drawable/ic_zinqirov"
+                    android:visibility="gone"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp" />
+
+
+
+            </RelativeLayout>
+
+
+<!--        </androidx.appcompat.widget.Toolbar>-->
+
+
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homerec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r" />
+
+</RelativeLayout>

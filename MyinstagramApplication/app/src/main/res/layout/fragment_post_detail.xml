@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostDetailFragment">
+
+ <com.google.android.material.appbar.AppBarLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/postdetailfragment_appbar"
+     android:background="?android:attr/windowBackground">
+
+
+     <androidx.appcompat.widget.Toolbar
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="?android:attr/windowBackground">
+
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:textSize="18sp"
+             android:text="Photo"/>
+
+
+     </androidx.appcompat.widget.Toolbar>
+
+
+
+ </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/postdetailfragment_appbar"
+        android:layout_height="wrap_content"
+        android:id="@+id/postdetailfragment_recyclerview"/>
+
+</RelativeLayout>

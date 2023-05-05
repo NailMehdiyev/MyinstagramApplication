@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FavorteFragment">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/fovoritefragment_appbar"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?android:attr/windowBackground">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/favorittol"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?android:attr/windowBackground">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+
+                    android:textSize="21sp"
+                    android:layout_height="wrap_content"
+                    android:text="Notifications" />
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/fovoritefragment_rec"
+        android:layout_below="@+id/fovoritefragment_appbar"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

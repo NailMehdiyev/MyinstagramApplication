@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/uuu"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/direktmesaj_circleimage"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_profil" />
+
+
+    <TextView
+        android:id="@+id/direktmesaj_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/direktmesaj_circleimage"
+        android:text="Username"
+        android:textColor="#393535"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/direktmesaj_mesajyazmaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/direktmesaj_us"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/direktmesaj_circleimage"
+        android:text="No messages"
+        android:textColor="#6B7362"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/direktmesaj_geden"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:layout_height="30dp" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/direktmesaj_gelen"
+        android:src="@drawable/ic_gerigelen"
+        android:visibility="gone"
+        android:layout_marginEnd="15dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/direktmesaj_geden"
+        android:layout_height="30dp" />
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:visibility="invisible"
+        android:id="@+id/direktactivity__sil"
+        android:layout_alignParentEnd="true"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_deleted" />
+
+
+</RelativeLayout>

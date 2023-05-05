@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "529916912963",
+    "firebase_url": "https://instachattedbiqi-default-rtdb.firebaseio.com",
+    "project_id": "instachattedbiqi",
+    "storage_bucket": "instachattedbiqi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529916912963:android:2229824db81b85c406bbf6",
+        "android_client_info": {
+          "package_name": "com.nailmehdiyev.myinstagramapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529916912963-jl6sgpbocu8k0dpngvhlbdf79vpbappj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd0FUw7ZhuITJRs-qvLfZOHwBsOlPSHC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529916912963-jl6sgpbocu8k0dpngvhlbdf79vpbappj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/ins" />
+
+
+    <EditText
+        android:id="@+id/editemaillogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/black"
+        android:textColorHint="#00BCD4"
+
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_btn"
+
+        android:hint="Email"
+
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/editpasswordlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_btn"
+        android:hint="Password"
+
+        android:textColor="@color/black"
+        android:textColorHint="#00BCD4"
+
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_btn"
+        android:padding="10dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/registrtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="New to Instagram?Register"
+        android:textStyle="bold" />
+
+</LinearLayout>
+

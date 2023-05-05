@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_home"
+        android:title=""
+        android:id="@+id/homeid"/>
+
+    <item android:id="@+id/searchid"
+        android:title=""
+        android:icon="@drawable/ic_search"/>
+
+
+    <item android:id="@+id/addid"
+        android:title=""
+        android:icon="@drawable/ic_add"/>
+
+    <item android:id="@+id/favoritid"
+        android:title=""
+        android:icon="@drawable/ic_favorite"/>
+
+    <item android:id="@+id/personid"
+        android:title=""
+        android:icon="@drawable/ic_profil"/>
+
+
+</menu>

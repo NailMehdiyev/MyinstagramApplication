@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".RegistrActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/ins" />
+
+
+    <EditText
+        android:id="@+id/editusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+
+        android:background="@drawable/edittext_btn"
+        android:hint="Username"
+        android:textColorHint="#00BCD4"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/black"
+
+        android:layout_marginTop="15dp"
+        android:textColorHint="#00BCD4"
+
+        android:background="@drawable/edittext_btn"
+
+        android:hint="Name"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/black"
+        android:textColorHint="#00BCD4"
+
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_btn"
+
+        android:hint="Email"
+
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_btn"
+        android:hint="Password"
+
+        android:textColor="@color/black"
+        android:textColorHint="#00BCD4"
+
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_btn"
+        android:padding="10dp"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/logintextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Already a user?Login"
+        android:textStyle="bold" />
+
+</LinearLayout>

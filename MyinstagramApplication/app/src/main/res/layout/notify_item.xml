@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/notfyitem_circle"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_profil" />
+
+    <TextView
+        android:id="@+id/notfyitem_usernam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/notfyitem_circle"
+        android:text="Istifadeci Adi"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/notfyitem_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notfyitem_usernam"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/notfyitem_circle"
+        android:hint="Bir sey yaz"
+        android:maxLines="6"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+
+    <ImageView
+        android:id="@+id/notfyitem_postimage"
+        android:layout_width="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher" />
+
+
+</RelativeLayout>
